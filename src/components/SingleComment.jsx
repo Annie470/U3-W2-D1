@@ -28,7 +28,7 @@ class SingleComment extends Component {
 
     return (
       <>
-      <h6 className="text-center mt-1">Recensioni:</h6>
+     
         <ListGroup>
           <ListGroup.Item key={this.props.comment._id} className="text-dark">
             <h6 className="text-danger">{this.props.comment.author}</h6>

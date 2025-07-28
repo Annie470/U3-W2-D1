@@ -53,6 +53,7 @@ class CommentArea extends Component {
         )}
        
             <AddComment id={this.props.bookId} />
+             <h6 className="text-center mt-1">Recensioni:</h6>
             <CommentList comments={this.state.comments} />
       </>
     );

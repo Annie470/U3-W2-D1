@@ -33,7 +33,7 @@ return (
       <Col>
         <Row className="justify-content-center gy-2">
       {filtrati.map((book) => (
-          <Col xs={12} md={4} lg={3} key={book.asin}>
+          <Col xs={12} md={4} lg={4} key={book.asin}>
         <SingleBook  book={book} setStateBookList={this.changeState} id={this.state.id} />
         </Col>
       ))}
